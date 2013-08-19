@@ -92,8 +92,8 @@ set laststatus=2
 "总是显示状态
 colorscheme desert
 
-set number
 " 设置行号
+set number
 
 "设置自动缩进  
 "设置智能缩进  
@@ -102,3 +102,7 @@ set shiftwidth=4
 set softtabstop=4  
 set expandtab  
 set smarttab  
+
+"redirect backup location
+set backupdir-=.
+set backupdir^=~/tmp,/tmp
