@@ -88,7 +88,7 @@ set cursorline
 "高亮光标所在行
 set laststatus=2
 "总是显示状态
-colorscheme desert
+colorscheme mod8
 
 " 设置行号
 set number
