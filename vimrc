@@ -80,8 +80,6 @@ if !exists(":DiffOrig")
 		  \ | wincmd p | diffthis
 endif
 
-set lines=70 columns=100
-"设置大小
 set guifont=Courier:h15
 "设置双字节字体
 set guifontwide=Hei_Regular:h14
